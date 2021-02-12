@@ -1,6 +1,6 @@
 import AWS from "aws-sdk";
 
-AWS.config.update({ region: "us-east-2" });
+AWS.config.update({ region: "us-east-1" });
 const client = new AWS.DynamoDB.DocumentClient();
 
 export default {
